@@ -1,5 +1,5 @@
 
-FROM openjdk:11-jdk-slim
+FROM eclipse-temurin:11-jdk
 WORKDIR /app
 COPY . .
 RUN javac samplename.java
